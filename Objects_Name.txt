@@ -1,0 +1,6 @@
+button:play
+matrix:mat
+best_score:bss
+current_score:crs
+number_generated:ng
+position_of_the_number:pn
