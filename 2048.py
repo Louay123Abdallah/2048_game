@@ -133,10 +133,10 @@ def generate_number():
         a=2**randint(1,6)
     else:
         x=int(log2(score))
-        if x<=20:
+        if x<=10:
             a=2**randint(1,6)
         else:
-            a=2**randint(x-19,x-15)
+            a=2**randint(x-9,x-5)
     fen.ng.setText(str(a))
 
 #Fonction de la vérification du fin du jeu
